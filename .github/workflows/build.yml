@@ -16,3 +16,6 @@ jobs:
       run: make docker-build
     - name: Run tests
       run: make docker-runtest-all
+    - name: Coveralls GitHub Action
+      uses: coverallsapp/github-action@1.1.3
+
